@@ -116,6 +116,7 @@ function multiplyArray(multArr) { //eslint-disable-line
   let firstArrayProd = multiply(testArray[0], testArray[1])[0];
   let secondArrayProd = multiply(firstArrayProd, testArray[2])[0];
   let messageProdArray = `The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${secondArrayProd}.`;
+
   return [secondArrayProd, messageProdArray];
 }
 
