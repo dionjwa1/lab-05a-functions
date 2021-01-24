@@ -110,17 +110,17 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-// function multiplyArray(multArr) { //eslint-disable-line
-//   // let firstArraySum = sum(testArray[0], testArray[1])[0];
-//   // let secondArraySum = sum(firstArraySum, testArray[2])[0];
-//   let firstArrayProd = multiply(testArray[0], testArray[1])[0];
-//   let secondArrayProd = multiply(firstArrayProd, testArray[2])[0];
-//   let messageProdArray = `The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${secondArrayProd}.`;
-//   return [secondArrayProd, messageProdArray];
-// }
+function multiplyArray(multArr) { //eslint-disable-line
+  // let firstArraySum = sum(testArray[0], testArray[1])[0];
+  // let secondArraySum = sum(firstArraySum, testArray[2])[0];
+  let firstArrayProd = multiply(testArray[0], testArray[1])[0];
+  let secondArrayProd = multiply(firstArrayProd, testArray[2])[0];
+  let messageProdArray = `The numbers ${testArray[0]},${testArray[1]},${testArray[2]} have a product of ${secondArrayProd}.`;
+  return [secondArrayProd, messageProdArray];
+}
 
-// // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+// Here is the test for multiplyArray(); uncomment it to run it
+testMultiplyArray(testArray);//eslint-disable-line
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
